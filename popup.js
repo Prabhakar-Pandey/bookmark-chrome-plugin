@@ -46,16 +46,17 @@ function getAllBookmarks(){
                             var title = urls.title;
                             var url = urls.url;
                             if (url) {
-                                suggestions.push({ content: url, description: title });
+                                suggestions.push({ content: url, description: title.replace('&','-') });
                             }
                         });
                     } else {
-                        suggestions.push({ content: url, description: title });
+                        suggestions.push({ content: url, description: title.replace('&','-') });
                     }
                 });
             });
         });
     });
+  setTimeout(function() {console.log(suggestions)}, 1000);
 }
 
 function changeTabs(text, suggest){
@@ -90,7 +91,9 @@ function filterLinks(text, suggest){
         }
         return matches;
     };
+
     selectedLinks = search(text, suggestions);
+    console.log(selectedLinks)
     // returns the sugestions on url from bookmarks
     suggest(search(text, suggestions));
 }
