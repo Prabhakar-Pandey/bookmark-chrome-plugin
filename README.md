@@ -10,7 +10,7 @@ How to install
 <br/><br/>
 How to search
 <br/>
-1. In url type bm and press "TAB" button.<br/>
+1. In url type "bm" and press "TAB" button.<br/>
 2. Try searching your query. If query matches your bookmarks then it will open that link on pressing enter other wise your query will be searched on google.<br/>
 <br/><br/>
 Author: Prabhakar Pandey
