@@ -1,5 +1,7 @@
 # bookmark-chrome-plugin
-
+<br/>
+Description: This plugin enables you to search your query within you bookmarks. If searched query is not there in bookmarks then it will search your query on google and provide you google search result.
+<br/><br/>
 How to install
 <br/>
 1.Download the source code locally.<br/>
