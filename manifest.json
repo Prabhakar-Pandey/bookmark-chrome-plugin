@@ -1,0 +1,21 @@
+{
+    "name": "bookmark-search",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "This will serch links from Bookmarks",
+    "browser_action": {
+        "default_icon": "logo.png"
+    },
+    "omnibox": { "keyword": "bm" },
+    "icons": {
+        "16": "logo.png"
+    },
+    "background": {
+        "scripts": ["popup.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "bookmarks",
+        "tabs"
+    ]
+}
